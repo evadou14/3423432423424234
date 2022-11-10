@@ -1,0 +1,38 @@
+h1{
+    color: blueviolet;
+}
+body
+{
+  color: rgb(85, 0, 255);
+  background: #bf96ff;
+  text-align: center;
+}
+#captureimagebutton{
+    border: 10px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(113, 0, 218);
+    width: 100px;
+    height :50px;
+    border-color: black;
+}
+#camera{
+    width: 500px;
+    height: 300px;
+    border: 5px;
+}
+#result{
+    width: 500px;
+    height: 300px;
+    border: 5px;
+}
+
+#predictbutton{
+    border: 10px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(113, 0, 218);
+    width: 100px;
+    height :50px;
+    border-color: black;
+}

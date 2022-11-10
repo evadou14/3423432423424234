@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>Hand Gestures App</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="container">
+	<center>
+		<h1 class="btn btn-warning heading">Hand Gestures App
+			<br>
+			<span>&#9995;</span>
+			<span>&#9996;</span>
+			<span>&#9994;</span>
+			<span>&#128076;</span>
+		  </h1>
+		  <h2>Take a selfie with a hand gesture above and let the computer guess!</h2>
+<div class="col-md-4 col-sm-12 col-xs-12 col-lg-4">
+	<label>Webcam View:</label>
+	<div id="camera"></div>
+	<br><br>
+	<button onclick="captureimage()" class="btn btn-warning" id="captureimagebutton">Capture Image</button>
+	<br>
+	<br>
+</div>
+	<div class="col-md-4 col-sm-12 col-xs-12 col-lg-4">
+		<label>Snapshot:</label>
+	  <div id="result"></div>
+	  <br><br>
+	  <button onclick="predict()" id="predictbutton">Predict</button>
+	</div>
+</center>
+</body>
+</html>
+ 
+
